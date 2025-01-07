@@ -34,6 +34,6 @@ public class Main {
         }
 
         System.out.println("\nUpdated vehicle details:");
-        System.out.println(rentalSystem.searchVehicle(searchID));
+        System.out.println(rentalSystem.searchVehicle(searchID).brand);
     }
 }
